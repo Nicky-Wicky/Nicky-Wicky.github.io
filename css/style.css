@@ -1,10 +1,15 @@
+@font-face {
+    font-family: logo;
+    src: url(../font/logo.ttf);
+}
+
+a.brand-logo {
+    margin: 6px;
+    font-family: logo;
+    font-size: 60px;
+    color: #26a69a;
+}
 
 ul.links li {
     display: inline-block;
 }
-
-.brand-logo {
-    /*padding: 3em;*/
-    width: 4em;
-}
-
