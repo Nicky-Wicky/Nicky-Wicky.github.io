@@ -2,11 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>YV</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <!--OWN styles-->
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<div>
-    Hello
+
+<!--NAVBAR-->
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">YV<!--<img src="img/logo.png" alt="logo"/>--></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 </div>
+
+<!--FOOTER-->
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Feedback</h5>
+                <h5>
+                    <i class="fa fa-phone" ></i>
+                    <a class="white-text text-lighten-3" id='tel' href="tel:+380634006563" > +3 8(063)-400-65-63</a>
+                </h5>
+                <h5>
+                    <i class="fa fa-envelope" ></i>
+                    <a class="white-text text-lighten-3" id='mail' href="mailto:yaremenko.v@gmail.com" > yaremenko.v@gmail.com</a>
+                </h5>
+                <h5>
+                    <i class="fa fa-skype"></i>
+                    <a class="white-text text-lighten-3" id='skype' href="skype:forsaken404?chat" > chat me</a>
+                </h5>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul class="links">
+                    <li>
+                        <a data-position="bottom" data-delay="50" data-tooltip="Github" class="tooltipped black-text text-lighten-3" href="https://github.com/Nicky-Wicky">
+                            <i class="fa fa-3x fa-github">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-position="bottom" data-delay="50" data-tooltip="Facebook" class="tooltipped blue-text text-lighten-3" href="https://www.facebook.com/vitaliy.yaremenko">
+                            <i class="fa fa-3x fa-facebook">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-position="bottom" data-delay="50" data-tooltip="Linkedin" class="tooltipped grey-text text-lighten-3" href="https://ua.linkedin.com/in/vitalii-yaremenko-119216112">
+                            <i class="fa fa-3x fa-linkedin">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-position="bottom" data-delay="50" data-tooltip="Resume" class="tooltipped orange-text text-lighten-3" href="resume/Yaremenko%20Vitalii%20resume.pdf">
+                            <i class="fa fa-3x fa-download">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2016 Yaremenko Vitalii
+            <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+        </div>
+    </div>
+</footer>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type='text/javascript' src="js/index.js"></script>
 </body>
 </html>
