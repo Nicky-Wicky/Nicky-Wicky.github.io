@@ -3,4 +3,8 @@ ul.links li {
     display: inline-block;
 }
 
+.brand-logo {
+    /*padding: 3em;*/
+    width: 4em;
+}
 
