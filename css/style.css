@@ -7,16 +7,15 @@ body {
     src: url(../font/logo.ttf);
 }
 
-/*@font-face {
-    font-family: 'dev';
-    src: url(../font/dev.ttf);
-}*/
-
 a.brand-logo {
     font-family: 'logo';
     margin: 6px;
     font-size: 60px;
     color: #26a69a;
+}
+
+#fio {
+    font-weight: bold;
 }
 
 ul.links li {
