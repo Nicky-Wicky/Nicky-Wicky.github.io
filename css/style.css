@@ -1,11 +1,20 @@
+body {
+    background-color: #BDBDBD;
+}
+
 @font-face {
-    font-family: logo;
+    font-family: 'logo';
     src: url(../font/logo.ttf);
 }
 
+@font-face {
+    font-family: 'dev';
+    src: url(../font/dev.ttf);
+}
+
 a.brand-logo {
+    font-family: 'logo';
     margin: 6px;
-    font-family: logo;
     font-size: 60px;
     color: #26a69a;
 }

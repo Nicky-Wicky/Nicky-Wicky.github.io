@@ -21,7 +21,7 @@
 <!--NAVBAR-->
 <div class="navbar-fixed">
     <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper blue-grey">
             <a href="#" class='brand-logo'>YV</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -42,18 +42,16 @@
 <!--INTRO-->
 <div class="container">
     <div class="row">
-        <h1 class="blue-grey-text text-darken-3 center">
+        <h1 class="blue-grey-text text-darken-3 center" style="font-family: 'dev'">
             YAREMENKO VITALII
         </h1>
-        <h4 class="blue-grey-text text-darken-3 center">JS developer</h4>
+        <h4 class="blue-grey-text text-darken-3 center" style="font-family: 'dev'">JS developer</h4>
         <hr/>
         <br/>
         <p class="center">
             <a class="btn waves-effect waves-light center" href="resume/Yaremenko%20Vitalii%20resume.pdf">RESUME</a>
         </p>
-
     </div>
-
 </div>
 
 <br/>
@@ -64,14 +62,62 @@
     <div class="row">
         <h3 class="center">PORTFOLIO</h3>
         <hr/>
-        <ul class="collection">
-            <li class="collection-item">
-                <p class="flow-text">
-                    My own project for portfolio
-                </p>
-                <a href="https://nicky-wicky@bitbucket.org/4006563/employee.git">Bitbucket</a>
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header flow-text">'Employee' - my own project for portfolio.</div>
+                <div class="collapsible-body">
+                    <p class="flow-text">
+                        <br/>
+                        <video width="320" height="240" controls>
+                            <source src="video/show.ogv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <br/>
+                        <a href="https://nicky-wicky@bitbucket.org/4006563/employee.git">Source code and description (Bitbucket)</a>
+                    </p>
+                    <br/>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header flow-text">'Fabrika' - project for tv companies. Now in development.</div>
+                <div class="collapsible-body">
+                    <p class="flow-text">
+                        This program makes subtitles for narrator.
+                        This could be news or another live programme on TV.
+                        Every narrator has own profile with him text for reading.
+                        Program based on Node.js. Exist administrator panel.
+                        Another description inside project.
+                        <a href="https://bitbucket.org/cheapcodeteam/news-factory-otb-genesis" style="">Bitbucket</a>
+                    </p>
+                </div>
             </li>
         </ul>
+        <!--<ul class="collection">
+            <li class="collection-item">
+                <p class="flow-text">
+                    'Employee' - my own project for portfolio.
+                </p>
+                <video width="320" height="240" controls>
+                    <source src="video/show.ogv" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <br/>
+                <a href="https://nicky-wicky@bitbucket.org/4006563/employee.git">Source code and description (Bitbucket)</a>
+            </li>
+            <li class="collection-item">
+                <p class="flow-text">
+                    'Fabrika' - project for tv companies. Now in development.
+                </p>
+                <p>
+                    This program makes subtitles for narrator.
+                    This could be news or another live programme on TV.
+                    Every narrator has own profile with him text for reading.
+                    Program based on Node.js. Exist administrator panel.
+                    Another description inside project.
+                </p>
+                <a href="https://bitbucket.org/cheapcodeteam/news-factory-otb-genesis" style="">Bitbucket</a>
+            </li>
+        </ul>-->
     </div>
 </div>
 
@@ -80,7 +126,7 @@
 <br/>
 <!--FOOTER-->
 <section id="contact"></section>
-<footer class="page-footer">
+<footer class="page-footer blue-grey">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
