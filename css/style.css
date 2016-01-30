@@ -1,5 +1,5 @@
 body {
-    background-color: #BDBDBD;
+    /*background: linear-gradient(to right, #607d8b, #ffffff);*/
 }
 
 @font-face {
@@ -12,11 +12,6 @@ a.brand-logo {
     margin: 6px;
     font-size: 60px;
     color: #26a69a;
-}
-
-#fio {
-    font-style: italic;
-    font-weight: bold;
 }
 
 ul.links li {
